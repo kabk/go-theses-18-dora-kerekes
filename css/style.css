@@ -1,0 +1,19 @@
+body {
+	overflow: hidden;
+	margin: 0;
+	height: 100%;
+	background-color: lightgrey;
+	font-family: antwerp;
+}
+
+@font-face {
+font-family: antwerp;
+src: url(../font/Antwerp.otf);
+}
+
+#wrapper{
+	float: left;
+	width: 60%;
+	margin: 20px;
+}
+
