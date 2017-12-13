@@ -1,18 +1,36 @@
-body {
+/*body {
 	margin: 0;
 	height: 100%;
 	background-color: lightgrey;
 	font-family: antwerp;
-}
+}*/
 
 @font-face {
 font-family: antwerp;
 src: url(../font/Antwerp.otf);
 }
 
-#wrapper{
+/*#wrapper{
 	float: left;
 	width: 60%;
 	margin: 20px;
 }
 
+*/
+
+body{ background-color: ivory; padding:10px; }
+
+.canvascontainer {
+	margin-top: 200px;
+	position: fixed;
+	width: 100%;
+	//background-color: red;
+}
+
+#canvas{
+
+	//border:1px solid red;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
