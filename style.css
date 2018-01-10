@@ -1,0 +1,54 @@
+body, html {
+	height: 100%;
+}
+
+body {
+	margin:0px;
+}
+
+
+img {
+	max-width: 50%;
+}
+
+.page {
+
+	//padding:50px;
+	//background: linear-gradient(orange, blue);
+	box-shadow: 0px 0px 120px black;
+	width: 100%;
+}
+
+#green {
+
+	background: linear-gradient(darkblue, blue);
+	
+}
+
+#blue {
+	background: linear-gradient(blue, lightblue);
+
+}
+
+#red {
+	background: linear-gradient(lightblue, white);
+	
+}
+
+#yellow {
+
+	background: linear-gradient(white, lightgrey);
+	
+}
+
+
+.canvascontainer {
+	//background-color: red;
+	//min-height: 1000px;
+    width: 100%;
+}
+
+.canvas {
+	//background-color: red;
+	width: 100%;
+}
