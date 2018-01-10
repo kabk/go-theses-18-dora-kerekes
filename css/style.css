@@ -1,36 +1,135 @@
-/*body {
-	margin: 0;
-	height: 100%;
-	background-color: lightgrey;
-	font-family: antwerp;
-}*/
 
 @font-face {
-font-family: antwerp;
-src: url(../font/Antwerp.otf);
+    font-family: antwerp;
+    src: url(../font/Antwerp.otf);
 }
 
-/*#wrapper{
-	float: left;
-	width: 60%;
-	margin: 20px;
+@font-face {
+    font-family: antwerp-light;
+    src: url(../font/Antwerp-Light.otf);
 }
 
-*/
+@font-face {
+    font-family: unica;
+    src: url(../font/NeueHaasUnicaPro-Regular.ttf);
+}
 
-body{ background-color: ivory; padding:10px; }
+body,
+html {
+    margin: 0px;
+    padding: 0px;
+   /* background-color: black;*/
+}
+
+canvas {
+    /*filter: invert(100%);*/
+}
+
+p {
+    font-family: antwerp-light, serif;
+    font-size: 14pt;
+}
+
+h1 {
+    font-family: unica, sans-serif;
+    font-size: 14pt;
+}
+
+#abstract-wrapper{
+    background-color: black;
+    margin: 0px;    
+}
+
+.ab-txt {
+    color: white;
+    width: 40%;
+    min-height: 900px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.txt {
+    width: 40%;
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+
+#wrapper{
+/*    background-color: blue;*/
+}
+
+.img-wrapper {
+}
+
+.txt-img{
+    padding-left: 30px;
+    width: 200px;
+    display: block;
+    margin: auto;
+
+}
+
+.first-img{
+    padding-top:80px;
+
+}
+
+#wrapper-sec1 {
+    display: flex;
+    flex-direction: row;
+}
+
+#text-wrapper-sec1 {
+    flex: 2;
+
+}
+
+#img-wrapper-sec1 {
+    flex: 3;
+/*    background-color: red;*/
+}
+
+.img-description {
+    text-align: center;
+    font-family: antwerp-light;
+    font-size: 10pt;
+
+}
+
 
 .canvascontainer {
-	margin-top: 200px;
-	position: fixed;
-	width: 100%;
-	//background-color: red;
+	background-color: red;
+	min-height: 3000px;
+    width: 100%;
 }
 
-#canvas{
+.canvascontainer2 {
+    background-color: black;
+    min-height: 3000px;
+    width: 100%;
+}
 
-	//border:1px solid red;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+#canvas2 {
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#canvas {
+	position: fixed;
+	width: 100%;
+/*    border: 2px solid red;*/
+    background-color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hidden{
+	display: none;
 }

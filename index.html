@@ -4,43 +4,53 @@
     <title> the real thesis christ </title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="shortcut icon" href="../icon.png"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <!--   <script>
     
     </script> -->
     <script type='text/javascript' src='script/jquery-3.2.1.min.js'></script>
     <script type='text/javascript' src='script/script.js'></script>
-
-    <style>
-        body, html{
-            margin : 0px;
-            padding: 0px;
-            min-height:3000px;
-            background-color: black;
-        }
-
-        canvas {
-           // position: fixed;
-            filter: invert(100%);
-            //width: 100%;
-            //height: 100%;
-        }
-    </style>
+    <script type='text/javascript' src='script/script-canv-2.js'></script>
 </head>
 <body>
-<!--     <div id='wrapper'>
-        <h1>Abstract</h1>
-        <h2>The flood is coming</h2>
-        <h2>Order tends to disorder</h2>
-        <h2>Thanks Adam and Eve</h2>
-        <p>I am researching biblical archetypal stories, the story of Adam and Eve and the story of the Flood in particular. The former is a creation story, the latter is the opposite. I want to find out why are we so unconsciously attracted to these biblical myths, how are they depicted in popular culture such as fiction movies, what are the common biblical elements that usually come back in them and how do they reflect on our every day lives. I believe that the biblical stories are true, but not in the same way as scientific truth is true. I think they are could be interpreted as meta-stories of human nature and culture, and that’s precisely the reason why its elements keep coming back in popular culture, because they teach us about ourselves. It might happen in a very subtle and unconscious way.As a graphic designer I’m fascinated by the impact that the Bible had on our Western civilisation, although I feel it’s a very controversial topic that is not discussed much. People tend to ignore this subject because of some extremely rigid believers who take every word literally. I would like to keep and open minded approach by analysing it from a non-religious perspective, treating it more like a piece of literature. I’ve started off using sources from the internet, luckily there are many valuable interviews lectures and articles online. Through those, I’ve collected a list of books that are currently unavailable to me, I hope to find a way to access them soon. When I started researching my knowledge was very basic and almost equal to zero. One of the unexpected things I found out how biblical motives come back in popular culture — usually the ones that get the most attention for example the Narnia, The Lion King and Harry Potter. Honestly, it’s hard to answer this question, I’m looking for unexpected things outside of what I currently know. </p>
-        <p>Hurricane Katrina hit the coast of the United States on August 29, 2005, and was one of the most catastrophic disasters every since. [N2] Although it’s middle, the strongest point didn’t directly hit New Orleans, it still caused hurricane wind conditions for hours.  Since power failures prevented exact measurements to be made possible, experts are estimating that the city likely experienced around Category 1 or Category 2 of air blast. It seemed like the city have escaped the most damaging wind and rain that had been predicted. Yet, the failures of flood walls and levees, which is considered to be the worst engineering disaster by experts, led New Orleans to be flooded by 80% for almost six weeks.</p>
-        <p>One year later, 1,836 people were confirmed dead with another 135 people still missing as a result of Katrina. The cost of damage to real estates and public infrastructure is estimated at 27.7 billion dollars. Almost half of the inhabitants of New Orleans still haven’t returned after evacuation. </p>
-        <p>Although most of the times these events was portrayed as a natural disaster in the media, later reports and research about the catastrophe revealed another side of the story. The U.S. Army Corps of Engineers admitted that their failure in properly designing and maintaining the levees increased the amount of damage Katrina had done on New Orleans. The storm surge breached the flood-walls in around 20 places. The USACE concluded according to a modelling exercise, that in a scenario where their hurricane protection didn’t fail, nearly two-thirds of the deaths would not have occurred. J. David Rogers, who was a lead researcher on a paper published in Water Policy law journal that focused on the U.S. Army Corps of Engineers, concluded that the flooding caused during Katrina might have been prevented if the corps had an external commission to review and double-check their levee designs. [N3]</p>
-        <p>The event was not a natural, it was a man-made disaster. It the result of more than 40 years’ worth of misjudgements, mistakes, ignorance and corruption. If the infrastructure would have been maintained and built to the technical specifications that were possible, and cheaper on the long term, the worst effect of Katrina on New Orleans would have been “wet ankles.” [N4] </p>
-        <p>From a metaphorical perspective, this could be interpreted as a judgmental God, teaching a moral lesson to the sinning man-kind, which might be somewhat severe analysis, but it’s worth considering if we want to point out the impact of human failure. The story of New Orleans is not only showing us our fragility against mother nature, but also teaches us about the failure of the human structure and the human individual, as a consequence of corruption.</p>
-    </div> -->
+
     <div class="canvascontainer">
         <canvas id="canvas"></canvas>
     </div>
+
+    <div id="abstract-wrapper" class="hidden">
+        <div class="ab-txt">
+            <h1>Abstract</h1>
+            <p>The myth of the flood is familiar to most literate Western people, and more. Coming from ancient Mesopotamia, making its way from the Sumerians to the Babylonians then to the Canaanites and the Israelites, the tale of Noah and his ark has not only spanned generations, it has also spanned civilisations, with only a few changes before ending up in the Bible, which hugely impacted the development of  Western Culture. What is the modern cultural significance of such and accent story? How does the story of Noah still affect us today? My goal examine its origins and how it evolved, how it was perceived over time, how it’s meaning has changed depending on time and space and conclude how it still effects us today. By means of researching and comparing common biblical elements that usually come back in secular retellings of the story, I hope to conclude its influence and meaning.  More specifically, my hypothesis is that the great story of Noah and the flood has had such a determinative influence of how we perceived, shaped and retold disaster stories, that in some cases, we unconsciously reproduce it.</p>  
+        </div>
+    </div>
+
+    <div id='wrapper-sec1'>
+        <div id="text-wrapper-sec1" class="txt">
+            <h1>History of the Flood tale</h1>
+            <p>I am researching biblical archetypal stories, the story of Adam and Eve and the story of the Flood in particular. The former is a creation story, the latter is the opposite. I want to find out why are we so unconsciously attracted to these biblical myths, how are they depicted in popular culture such as fiction movies, what are the common biblical elements that usually come back in them and how do they reflect on our every day lives. I believe that the biblical stories are true, but not in the same way as scientific truth is true. I think they are could be interpreted as meta-stories of human nature and culture, and that’s precisely the reason why its elements keep coming back in popular culture, because they teach us about ourselves. It might happen in a very subtle and unconscious way.As a graphic designer I’m fascinated by the impact that the Bible had on our Western civilisation, although I feel it’s a very controversial topic that is not discussed much. People tend to ignore this subject because of some extremely rigid believers who take every word literally. I would like to keep and open minded approach by analysing it from a non-religious perspective, treating it more like a piece of literature. I’ve started off using sources from the internet, luckily there are many valuable interviews lectures and articles online. Through those, I’ve collected a list of books that are currently unavailable to me, I hope to find a way to access them soon. When I started researching my knowledge was very basic and almost equal to zero. One of the unexpected things I found out how biblical motives come back in popular culture — usually the ones that get the most attention for example the Narnia, The Lion King and Harry Potter. Honestly, it’s hard to answer this question, I’m looking for unexpected things outside of what I currently know. </p>
+            <p>Hurricane Katrina hit the coast of the United States on August 29, 2005, and was one of the most catastrophic disasters every since. [N2] Although it’s middle, the strongest point didn’t directly hit New Orleans, it still caused hurricane wind conditions for hours.  Since power failures prevented exact measurements to be made possible, experts are estimating that the city likely experienced around Category 1 or Category 2 of air blast. It seemed like the city have escaped the most damaging wind and rain that had been predicted. Yet, the failures of flood walls and levees, which is considered to be the worst engineering disaster by experts, led New Orleans to be flooded by 80% for almost six weeks.</p>
+            <p>One year later, 1,836 people were confirmed dead with another 135 people still missing as a result of Katrina. The cost of damage to real estates and public infrastructure is estimated at 27.7 billion dollars. Almost half of the inhabitants of New Orleans still haven’t returned after evacuation.</p>
+            <p>Although most of the times these events was portrayed as a natural disaster in the media, later reports and research about the catastrophe revealed another side of the story. The U.S. Army Corps of Engineers admitted that their failure in properly designing and maintaining the levees increased the amount of damage Katrina had done on New Orleans. The storm surge breached the flood-walls in around 20 places. The USACE concluded according to a modelling exercise, that in a scenario where their hurricane protection didn’t fail, nearly two-thirds of the deaths would not have occurred. J. David Rogers, who was a lead researcher on a paper published in Water Policy law journal that focused on the U.S. Army Corps of Engineers, concluded that the flooding caused during Katrina might have been prevented if the corps had an external commission to review and double-check their levee designs. [N3]</p>
+            <p>The event was not a natural, it was a man-made disaster. It the result of more than 40 years’ worth of misjudgements, mistakes, ignorance and corruption. If the infrastructure would have been maintained and built to the technical specifications that were possible, and cheaper on the long term, the worst effect of Katrina on New Orleans would have been “wet ankles.” [N4] </p>
+            <p>From a metaphorical perspective, this could be interpreted as a judgmental God, teaching a moral lesson to the sinning man-kind, which might be somewhat severe analysis, but it’s worth considering if we want to point out the impact of human failure. The story of New Orleans is not only showing us our fragility against mother nature, but also teaches us about the failure of the human structure and the human individual, as a consequence of corruption.</p>
+        </div>
+        <div id="img-wrapper-sec1" class="img-wrapper">
+            <img class="txt-img first-img" src="imgs/txt-imgs/old.jpg" alt="old">
+            <br>
+            <div class="img-description">buli buli painting yes 1978</div>
+            <img class="txt-img first-img" src="imgs/txt-imgs/red.jpg" alt="red">
+            <br>
+            <div class="img-description">it was a man-made disaster</div>
+            <img class="txt-img first-img" src="imgs/txt-imgs/mic-flood.jpg" alt="red">
+            <br>
+            <div class="img-description">nice img number 2 1879 yes</div>
+        </div>
+    </div>
+
+    <div class="canvascontainer2">
+        <canvas id="canvas2"></canvas>
+    </div>
+
 </body>
 </html>
