@@ -42,6 +42,10 @@ a {
 	color:black;
 }
 
+i {
+	font-family: arnhem-italics;
+}
+
 img {
 	max-width: 100%;
 }
@@ -159,14 +163,29 @@ h1 {
 	background: linear-gradient(rgb(206, 225, 255), white);	
 }
 
+#colophon {
+	background: linear-gradient(white, rgb(206, 225, 255));	
+}
+
+.reference {
+	font-size: 12px;	
+}
 
 .ref-num {
 	color:red;
 	font-family: arnhem2, serif;
-
 }
 
-.quote-big{
+.img-ref-num{
+	color:red;
+	font-family: arnhem2, serif;
+}
+
+.reference-col{
+	flex:2;
+}
+
+.quote-big {
 	font-size: 60px;
 	font-family: arnhem-italics, serif;
 	text-align: center;
@@ -200,10 +219,18 @@ h1 {
 }
 
 .reference-wrap {
+	padding: 70px; 
+}
+
+.img-caption{
+	font-size: 18px;
+}
+
+.reference-col-wrap {
 	padding: 70px;
-	/*background-color: green;*/
+	display: flex; 
 }
 
 .colophon-wrap{
-	background-color: purple;
+	padding: 70px;
 }
