@@ -18,14 +18,20 @@
     src: url(../font/kabel.otf);
 }
 
+@font-face {
+    font-family: kabel-heavy;
+    src: url(../font/kabel-heavy.otf);
+}
 
 
 body, html {
 	height: 100%;
+
 }
 
 body {
 	margin:0px;
+	
 }
 
 canvas {
@@ -87,7 +93,7 @@ h1 {
 	text-indent: 50px;
 }
 
-.quote{
+.quote {
 	font-family: arnhem-italics;
 }
 
@@ -173,12 +179,12 @@ h1 {
 
 .ref-num {
 	color:red;
-	font-family: arnhem2, serif;
+	font-family: kabel-heavy, serif;
 }
 
 .img-ref-num{
 	color:red;
-	font-family: arnhem2, serif;
+	font-family: kabel-heavy, serif;
 }
 
 .reference-col{
@@ -233,4 +239,27 @@ h1 {
 
 .colophon-wrap{
 	padding: 70px;
+}
+
+.hiddenImg {
+	display: none;
+}
+
+@media print {
+	.page {
+		position: relative !important;
+	}
+
+	.hiddenImg {
+		display: block !important;
+	//	filter: invert(100%);
+	}
+	canvas{
+		/*display: none;*/
+	}
+
+/*	body {
+		background-color: black;
+		color: white;
+	}*/
 }
