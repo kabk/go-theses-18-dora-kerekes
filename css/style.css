@@ -40,7 +40,6 @@ canvas {
     margin-left: auto;
     margin-right: auto;
     display: block;
-   /* width: 800px;*/
 }
 
 a {
@@ -120,45 +119,45 @@ h1 {
 	background: linear-gradient(rgb(0, 0, 64), rgb(0, 0, 89))
 }
 
-#chapter-1 {
-/*	background: white;	*/
-	background: linear-gradient(rgb(206, 225, 255), white);	
-}
-
 #chapter-2-title {
 	background: linear-gradient(rgb(0, 0, 89), rgb(0, 0, 102));	
-}
-
-#chapter-2 {
-	background: linear-gradient(white, rgb(206, 225, 255));	
 }
 
 #chapter-3-title {
 	background: linear-gradient(rgb(0, 0, 102), rgb(0, 0, 128));	
 }
 
-#chapter-3 {
-	background: linear-gradient(rgb(206, 225, 255), white);	
-}
-
 #chapter-4-title {
 	background: linear-gradient(rgb(0, 0, 128), rgb(0, 0, 204));	
-}
-
-#chapter-4 {
-	background: linear-gradient(white, rgb(206, 225, 255));	
 }
 
 #chapter-5-title {
 	background: linear-gradient(rgb(0, 0, 204), rgb(17, 17, 170));	
 }
 
-#chapter-5 {
+#conclusion-title {
+	background: linear-gradient(rgb(17, 17, 170), rgb(0, 0, 64));	
+}
+
+#chapter-1 {
 	background: linear-gradient(rgb(206, 225, 255), white);	
 }
 
-#conclusion-title {
-	background: linear-gradient(rgb(17, 17, 170), rgb(0, 0, 64));	
+
+#chapter-2 {
+	background: linear-gradient(white, rgb(206, 225, 255));	
+}
+
+#chapter-3 {
+	background: linear-gradient(rgb(206, 225, 255), white);	
+}
+
+#chapter-4 {
+	background: linear-gradient(white, rgb(206, 225, 255));	
+}
+
+#chapter-5 {
+	background: linear-gradient(rgb(206, 225, 255), white);	
 }
 
 #conclusion {
@@ -248,11 +247,13 @@ h1 {
 @media print {
 	.page {
 		position: relative !important;
+		-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    	filter: grayscale(100%);
 	}
 
 	.hiddenImg {
 		display: block !important;
-	//	filter: invert(100%);
+		filter: invert(100%);
 	}
 	canvas{
 		/*display: none;*/
