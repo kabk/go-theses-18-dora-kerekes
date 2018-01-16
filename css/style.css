@@ -139,37 +139,40 @@ h1 {
 	background: linear-gradient(rgb(17, 17, 170), rgb(0, 0, 64));	
 }
 
-#chapter-1 {
-	background: linear-gradient(rgb(206, 225, 255), white);	
+#abstract {
+	background: linear-gradient(rgb(181, 209, 255), white);	
 }
 
+#chapter-1 {
+	background: linear-gradient(white, rgb(206, 225, 255));
+}
 
 #chapter-2 {
-	background: linear-gradient(white, rgb(206, 225, 255));	
+	background: linear-gradient(rgb(206, 225, 255), white);	
 }
 
 #chapter-3 {
-	background: linear-gradient(rgb(206, 225, 255), white);	
+	background: linear-gradient(white, rgb(206, 225, 255));	
 }
 
 #chapter-4 {
-	background: linear-gradient(white, rgb(206, 225, 255));	
+	background: linear-gradient(rgb(206, 225, 255), white);		
 }
 
 #chapter-5 {
-	background: linear-gradient(rgb(206, 225, 255), white);	
+	background: linear-gradient(white, rgb(206, 225, 255));
 }
 
 #conclusion {
-	background: linear-gradient(white, rgb(206, 225, 255));	
+	background: linear-gradient(rgb(206, 225, 255), white);		
 }
 
 #references {
-	background: linear-gradient(rgb(206, 225, 255), white);	
+	background: linear-gradient(white, rgb(206, 225, 255));
 }
 
 #colophon {
-	background: linear-gradient(white, rgb(206, 225, 255));	
+	background: linear-gradient(rgb(206, 225, 255), white);		
 }
 
 .reference {
@@ -227,13 +230,6 @@ h1 {
 	font-size: 18px;
 }
 
-#reference-col-1 {
-
-}
-
-#reference-col-3 {
-
-}
 
 .reference-col-wrap {
 	padding: 70px;
@@ -267,6 +263,13 @@ h1 {
 	}
 
 	#references {
+		page-break-after: always;
+		page-break-before: always;
+
+	}
+
+
+	#abstract {
 		page-break-after: always;
 		page-break-before: always;
 
