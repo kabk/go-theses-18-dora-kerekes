@@ -186,10 +186,6 @@ h1 {
 	font-family: kabel-heavy, serif;
 }
 
-.reference-col{
-	flex:2;
-}
-
 .quote-big {
 	font-size: 60px;
 	font-family: arnhem-italics, serif;
@@ -231,9 +227,22 @@ h1 {
 	font-size: 18px;
 }
 
+#reference-col-1 {
+
+}
+
+#reference-col-3 {
+
+}
+
 .reference-col-wrap {
 	padding: 70px;
 	display: flex; 
+}
+
+.reference-col {
+	flex:2;
+	padding-left: 30px;
 }
 
 .colophon-wrap{
@@ -245,22 +254,27 @@ h1 {
 }
 
 @media print {
+
 	.page {
 		position: relative !important;
-		-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    	filter: grayscale(100%);
 	}
 
 	.hiddenImg {
 		display: block !important;
-		filter: invert(100%);
-	}
-	canvas{
-		/*display: none;*/
 	}
 
-/*	body {
-		background-color: black;
-		color: white;
+	canvas {
+	}
+
+	#references {
+		page-break-after: always;
+		page-break-before: always;
+
+	}
+
+/*	::-webkit-scrollbar { 
+    	display: none; 
 	}*/
+
+
 }
